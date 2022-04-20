@@ -1,0 +1,74 @@
+tr, td {
+    border: 1px solid black;
+    background-color: #A4BEF3;
+}
+
+td{
+    height: 10em;
+    width: 10em;
+    text-align: center;
+}
+
+body{
+    background-color: #5EB1BF;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    color: #F4E04D;
+}
+
+.turn{
+    width: 50px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 10px;
+
+}
+
+#container {
+    width: 500 px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#players{
+        margin-top: 50px;
+        width: 150 px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #042A2B;
+        border-radius: 10px;
+}
+
+#player1, #player2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+} 
+
+img{
+    width: 5em;
+    height: 5em;
+}
+
+.scores{
+    margin-left: 10px;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
