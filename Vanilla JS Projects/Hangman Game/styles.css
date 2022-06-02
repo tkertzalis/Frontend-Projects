@@ -1,0 +1,95 @@
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#container{
+    width: 1820px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+#word-section{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-section{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+
+}
+
+#hangman-section{
+    width: 400px;
+    height: 1000px;
+}
+
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+li{
+    margin-top: 20px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span.letter{
+    width: 50px;
+    height: 35px;
+    margin: 20px;
+    color: white;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+#get-tip{
+    border-radius: 10px;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#new-word {
+    border-radius: 10px;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
